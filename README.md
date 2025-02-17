@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug related to Lua's `pairs` iterator and recursive table traversal.  The `bug.lua` file contains code that can lead to an infinite loop due to unforeseen interactions between the iterator and recursive table modification. The solution addresses the issue by using a different approach to iterate and modify tables, ensuring correct behavior.
